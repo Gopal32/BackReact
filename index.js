@@ -21,7 +21,7 @@ app.use('/', (req,res) => {
 
 // Configure Mongoose to Connect to MongoDB
 
-const mongoDbUrl = 'mongodb+srv://Gopal:123456@cluster0.npwkk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/cms';
+const mongoDbUrl = 'mongodb+srv://Gopal:123456@cluster0.npwkk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(mongoDbUrl, { useNewUrlParser: true, useUnifiedTopology: true})
